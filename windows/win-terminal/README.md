@@ -21,34 +21,36 @@
 > `schemes`
 
 ```json
-{
-    "name": "Gruvbox Dark",
-    "black": "#1e1e1e",
-    "red": "#bb3138",
-    "green": "#868715",
-    "yellow": "#cc881a",
-    "blue": "#377375",
-    "purple": "#a04b73",
-    "cyan": "#578e57",
-    "white": "#978771",
-    "brightBlack": "#7f7061",
-    "brightRed": "#f73028",
-    "brightGreen": "#aab01e",
-    "brightYellow": "#f7b125",
-    "brightBlue": "#719586",
-    "brightPurple": "#c77089",
-    "brightCyan": "#7db669",
-    "brightWhite": "#e6d4a3",
-    "background": "#1e1e1e",
-    "foreground": "#e6d4a3"
-}
+"schemes": [
+    {
+        "name": "Gruvbox Dark",
+        "black": "#1e1e1e",
+        "red": "#bb3138",
+        "green": "#868715",
+        "yellow": "#cc881a",
+        "blue": "#377375",
+        "purple": "#a04b73",
+        "cyan": "#578e57",
+        "white": "#978771",
+        "brightBlack": "#7f7061",
+        "brightRed": "#f73028",
+        "brightGreen": "#aab01e",
+        "brightYellow": "#f7b125",
+        "brightBlue": "#719586",
+        "brightPurple": "#c77089",
+        "brightCyan": "#7db669",
+        "brightWhite": "#e6d4a3",
+        "background": "#1e1e1e",
+        "foreground": "#e6d4a3"
+    }
+]
 ```
 
 * Profile
   
 > `profiles.defaults`
 
-```json
+```jsonc
 {
     "defaults": {
         // Put settings here that you want to apply to all profiles.
