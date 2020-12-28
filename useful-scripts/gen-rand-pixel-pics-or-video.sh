@@ -4,7 +4,7 @@
 # convert -depth 8 -size 1920x1080 "rgb:"<(cat /dev/urandom | head -c $(( 3*1080*1920 )) ) out.png
 
 # video
-SECS=5
+SECS=60
 FPS=24
 # use `ffmpeg -codecs -hide_banner | grep hevc` to find suitable encoder you need
 ENCODING=hevc
@@ -32,6 +32,6 @@ done
 
 
 # generate video
-echo "\nGenerating video..."
+echo -e "\nGenerating video..."
 ffmpeg -i $PIC_OUTPUT_PATH/$PIC_FMT '-c:v' $ENCODING -r $FPS -an -y $OUTPUT_ARGS $OUTPUT
-echo "\nAll completed. See $OUTPUT."
+echo -e "\nAll completed. See $OUTPUT."
